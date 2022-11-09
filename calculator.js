@@ -1,5 +1,3 @@
-var myValue;
-
 function clearArea(){
     document.getElementById('display').value = null; 
 }
@@ -12,7 +10,7 @@ function posNegative(myValue){
     document.getElementById('display').value *= myValue;
 }
 
-function percent(myValue){
+function percent(){
     var myValue = document.getElementById('display').value;
     document.getElementById('display').value = myValue * 0.01;
 }
