@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator1.2.css">
+    <script src="calculator1.2.js"></script>    
+</head>
+<body>
+    <div id="grid-container">
+        <input id="display" type="text" placeholder="0">
+        <input type="button" value="C" id="op1" onclick="clearArea()" class="i"></input>
+        <input type="button" value="+-" id="op2" onclick="posNegative('-1')" class="i"></input>
+        <input type="button" value="%" id="op3" onclick="percent()" class="i"></input>
+        <input type="button" value="/" id="op4" onclick="opt('/')" class="i"></input>
+        <input type="button" value="7" id="op5" onclick="opt('7')" class="i"></input>
+        <input type="button" value="8" id="op6" onclick="opt('8')" class="i"></input>
+        <input type="button" value="9" id="op7" onclick="opt('9')" class="i"></input>
+        <input type="button" value="x" id="op8" onclick="opt('*')" class="i"></input>
+        <input type="button" value="4" id="op9" onclick="opt('4')" class="i"></input>
+        <input type="button" value="5" id="op10" onclick="opt('5')" class="i"></input>
+        <input type="button" value="6" id="op11" onclick="opt('6')" class="i"></input>
+        <input type="button" value="-" id="op12" onclick="opt('-')" class="i"></input>
+        <input type="button" value="1" id="op13" onclick="opt('1')" class="i"></input>
+        <input type="button" value="2" id="op14" onclick="opt('2')" class="i"></input>
+        <input type="button" value="3" id="op15" onclick="opt('3')" class="i"></input>
+        <input type="button" value="+" id="op16" onclick="opt('+')" class="i"></input>
+        <input type="button" value="." id="op17" onclick="opt('.')" class="i"></input>
+        <input type="button" value="0" id="op18" onclick="opt('0')" class="i"></input>
+        <input type="button" value="=" id="op19" onclick="solve()" class="i"></input>    
+    </div>
+    
+</body>
+</html>
